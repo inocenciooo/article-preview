@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+:root {
+  --share-bgcolor: hsl(217, 19%, 35%);
+  --text-color: hsl(214, 17%, 51%);
+  --icon-bgcolor: hsl(212, 23%, 69%);
+  --body-bgcolor: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+.card img {
+  width: auto;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Manrope";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-bgcolor);
+}
+
+.card {
+  width: 73rem;
+  height: 28rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1.55fr;
+  background-color: white;
+  box-shadow: 0px 0px 100px -30px rgba(0, 0, 0, 0.26);
+}
+
+.card .image {
+  background-image: url(../images/drawers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px 0px 0px 8px;
+  height: 28rem;
+}
+
+.card .info {
+  padding: 3.1rem 4rem;
+  color: var(--share-bgcolor);
+}
+
+.card .info h2 {
+  font-size: 2.04rem;
+}
+
+.card .info .info-texts p {
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
+  line-height: 2rem;
+  word-spacing: 0.12rem;
+}
+
+.card .user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.card .user .user-data {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.card .avatar-photo img {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 100%;
+}
+
+.card .user-data p {
+  font-size: 1.3rem;
+}
+
+.card .user-data p:nth-child(1) {
+  font-weight: bold;
+  color: var(--share-bgcolor);
+  margin-bottom: 0.3rem;
+}
+
+.card .user-data p:nth-child(2) {
+  font-weight: 300;
+}
+
+.card .share {
+  background-color: var(--body-bgcolor);
+  padding: 0.8rem;
+  border-radius: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.card .share:hover {
+  background-color: var(--text-color);
+  cursor: pointer;
+}
+.card .share .icon {
+  fill: #6e8098;
+  transition: 0.3s ease-in-out;
+}
+
+.card .share:hover .icon {
+  fill: white;
+}
+
+.card .user .share-info {
+  position: absolute;
+  right: -11rem;
+  top: -8rem;
+  width: 25.1rem;
+  height: 5.5rem;
+  border-radius: 10px;
+  background-color: var(--share-bgcolor);
+  color: var(--body-bgcolor);
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.7rem;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+}
+.ponta {
+  position: absolute;
+  rotate: 45deg;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--share-bgcolor);
+  bottom: -0.8rem;
+}
+
+.card .user .share-info.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.card .share.active {
+  background-color: var(--text-color);
+}
+
+.card .share.active .icon {
+  fill: white;
+}
