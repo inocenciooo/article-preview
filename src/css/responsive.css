@@ -1,0 +1,71 @@
+@media (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+  .card {
+    width: 32.4rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .image {
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .card .info {
+    height: 85.5%;
+    padding: 0 3rem;
+  }
+
+  .card .info .info-texts {
+    margin-top: 2.8rem;
+    margin-bottom: 3rem;
+  }
+  .card .info h2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    word-spacing: 0.14rem;
+  }
+  .card .info .info-texts p {
+    font-size: 1.29rem;
+    margin-top: 1.3rem;
+    line-height: 2rem;
+    word-spacing: 0.12rem;
+  }
+
+  .card .user .share-info {
+    position: absolute;
+    border-radius: 0px 0px 8px 8px;
+    right: -3rem;
+    top: -1.3rem;
+    width: 32.4rem;
+    height: 7.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding-left: 3rem;
+  }
+  .ponta {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 3000px) {
+  html {
+    font-size: 20px;
+  }
+}
