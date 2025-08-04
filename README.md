@@ -39,8 +39,8 @@ Construir um componente funcional com base no layout proposto, contendo:
 
 ### 🖥️ Desktop
 
-<img style="width:700px;" src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080.png">
-<img style="width:700px;" src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080-active.png">
+<img src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080.png">
+<img src="./src/resultados/Monitor-Full-HD-(padrao)-1920x1080-active.png">
 
 ### 📱 Mobile
 
