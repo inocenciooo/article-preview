@@ -2,6 +2,7 @@
   html {
     font-size: 12px;
   }
+
   .card {
     width: 32.4rem;
     height: 50rem;
@@ -22,11 +23,13 @@
     margin-top: 2.8rem;
     margin-bottom: 3rem;
   }
+
   .card .info h2 {
     font-size: 1.6rem;
     line-height: 2.4rem;
     word-spacing: 0.14rem;
   }
+
   .card .info .info-texts p {
     font-size: 1.29rem;
     margin-top: 1.3rem;
@@ -47,6 +50,7 @@
     gap: 2rem;
     padding-left: 3rem;
   }
+
   .ponta {
     display: none;
   }
