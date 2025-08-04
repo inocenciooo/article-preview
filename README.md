@@ -51,4 +51,4 @@ Construir um componente funcional com base no layout proposto, contendo:
 
 ## 🔗 Veja no GitHub Pages
 
-🔗 [Clique aqui para visualizar o projeto](https://github.com/inocenciooo/article-preview)
+🔗 [Clique aqui para visualizar o projeto](https://inocenciooo.github.io/article-preview/)
